@@ -18,10 +18,10 @@ const addProduct = async (req,res) => {
 
     try {
         await product.save();
-        res.json({success:true, mesaage:'Product Added'})
+        res.json({success:true, message:'Product Added'})
     } catch (error) {
         console.log("Error ->", error);
-        res.json({success:false, mesaage: 'Product Added Error'})
+        res.json({success:false, message: 'Product Added Error'})
     }
 }
 

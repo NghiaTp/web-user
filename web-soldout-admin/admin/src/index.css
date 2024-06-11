@@ -20,3 +20,13 @@ hr{
   height: 1px;
   background-color: #a9a9a9;
 }
+
+.app-content{
+  display: flex;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
