@@ -16,7 +16,7 @@ const Slidebar = () => {
                 <p className='title'>List Product</p>
             </NavLink>
             <NavLink className="slidebar-option" to='/orders'>
-                <img src={assets.check_pakage} alt="" className='icon'/>
+                <img src={assets.order_list} alt="" className='icon'/>
                 <p className='title'>Orders</p>
             </NavLink>
         </div>

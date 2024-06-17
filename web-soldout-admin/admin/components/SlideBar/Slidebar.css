@@ -36,8 +36,7 @@ p.title{
 }
 
 .slidebar-option.active{
-    background-color: #38b6ffb6;
-    border-color: #01a2ff;
+    border: 2px solid #01a2ff;
 }
 
 @media (max-width:900px) {

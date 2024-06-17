@@ -114,3 +114,54 @@ img.icon{
     }
 
 }
+
+.navbar-profile .icon_profile{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.nav-profile-dropdown li img{
+    width: 20px;
+}
+
+.navbar-profile{
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-profile-dropdown{
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar-profile:hover .nav-profile-dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 12px 25px;
+    border-radius: 4px;
+    border: 1px solid #38B6FF;
+    outline: 2px solid white;
+    list-style: none;
+    width: 210px;
+    
+}
+
+.nav-profile-dropdown li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.nav-profile-dropdown li p{
+    font-size: 14px;
+}
+
+.nav-profile-dropdown li:hover{
+    color: #38B6FF;
+}
+

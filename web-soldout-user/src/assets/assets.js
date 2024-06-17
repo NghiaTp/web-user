@@ -8,6 +8,10 @@ import rating_icon from '../assets/image/rating_icon.png'
 import add_icon from '../assets/image/add_icon.png'
 import remove_icon from '../assets/image/remove_icon.png'
 import cross_icon from './image/cross_icon.png'
+import profile_icon from './image/avatar.jpg'
+import logout_icon from './image/logout_icon.png'
+import favorite_icon from './image/favorite_icon.png'
+import order_list from './image/order_list.png'
 
 
 //social media icon
@@ -105,7 +109,11 @@ export const assets = {
     facebook_icon,
     instagram_icon,
     tiktok_icon,
-    samsung_galaxy_s23_plus
+    samsung_galaxy_s23_plus,
+    profile_icon,
+    logout_icon,
+    favorite_icon,
+    order_list
 }
 
 // data danh mục

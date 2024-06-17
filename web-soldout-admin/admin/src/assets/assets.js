@@ -6,7 +6,7 @@ import package_icon from "./images/package.png"
 import check_pakage from "./images/check_package.png"
 import update_icon from "./images/update_icon.png"
 import delete_icon from "./images/delete_icon.png"
-
+import order_list from "./images/order_list.png"
 
 export const assets = {
     logo,
@@ -16,5 +16,6 @@ export const assets = {
     package_icon,
     check_pakage,
     update_icon,
-    delete_icon
+    delete_icon,
+    order_list
 }

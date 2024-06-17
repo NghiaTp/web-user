@@ -43,8 +43,7 @@ const delProduct = async(req,res) => {
     try {
         const product = await ProductModel.findById(req.body.id);
         fs.unlink(`uploads/${product.image}`,()=>{});
-
-        await ProductModel.findOneAndDelete(req.body.id);
+        await ProductModel.findOneAndDelete({_id:req.body.id});
         res.json({success: true, mesaage: 'Delete success'})
     } catch (error) {
         console.log("Error --> ", error);
