@@ -1,0 +1,195 @@
+.address {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .error {
+    color: #d32f2f;
+    background-color: #ffcdd2;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #38B6FF;  /* Đã thay đổi màu nút */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2C91CC;  /* Màu hover mới */
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .form-dialog {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    padding: 24px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    z-index: 1001;
+  }
+  
+  .form-dialog h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input[type="text"]:focus {
+    outline: none;
+    border-color: #38B6FF;
+    box-shadow: 0 0 0 2px rgba(56, 182, 255, 0.2);
+  }
+  
+  .form-dialog button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-dialog button[type="submit"] {
+    background-color: #38B6FF;
+    color: white;
+  }
+  
+  .form-dialog button[type="submit"]:hover {
+    background-color: #2C91CC;
+  }
+  
+  .form-dialog button[type="button"] {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .form-dialog button[type="button"]:hover {
+    background-color: #e1e1e1;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .address-list {
+    margin-top: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .address-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;  /* Thêm vị trí tương đối */
+  }
+  
+  .address-item p {
+    margin: 5px 0;
+  }
+  
+  .address-item .button-group {
+    position: absolute;  /* Định vị tuyệt đối cho nhóm nút */
+    top: 15px;
+    right: 15px;
+  }
+  
+  .address-item button {
+    margin-left: 10px;  /* Khoảng cách giữa các nút */
+  }
+  
+  .address-item button:last-child {
+    background-color: #f44336;
+  }
+  
+  .address-item button:last-child:hover {
+    background-color: #d32f2f;
+  }
+  
+  @media (max-width: 600px) {
+    .address {
+      padding: 10px;
+    }
+    
+    .form-dialog {
+      padding: 15px;
+    }
+    
+    .address-item .button-group {
+      position: static;
+      margin-top: 10px;
+      text-align: right;
+    }
+  }

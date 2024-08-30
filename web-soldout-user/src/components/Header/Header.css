@@ -34,6 +34,7 @@ img.img-header{
 .img_container .img_product_phone{
     position: relative;
     flex: 1;
+    cursor: pointer;
 }
 
 .img_container .img_product_phone .title_image{

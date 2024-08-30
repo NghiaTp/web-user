@@ -1,6 +1,6 @@
-.add{
+.container{
     width: 70%;
-    margin-left: max(5vw,25px);
+    margin-left: 50px;
     margin-top: 20px;
     color: #6d6d6d;
     font-size: 16px;
@@ -12,10 +12,6 @@
 
 .add-image{
     width: 120px;
-}
-
-img.image-upload{
-    width: 200px;
 }
 
 .add-product-name, .add-product-description{

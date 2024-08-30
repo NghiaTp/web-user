@@ -19,6 +19,26 @@ const Slidebar = () => {
                 <img src={assets.order_list} alt="" className='icon'/>
                 <p className='title'>Orders</p>
             </NavLink>
+            <NavLink className="slidebar-option" to='/cancel-order'>
+                <img src={assets.cancelled_order} alt="" className='icon'/>
+                <p className='title'>Cancelled Order</p>
+            </NavLink>
+            <NavLink className="slidebar-option" to='/categories'>
+                <img src={assets.category} alt="" className='icon'/>
+                <p className='title'>Categories & Brand</p>
+            </NavLink>
+            <NavLink className="slidebar-option" to='/user-manager'>
+                <img src={assets.user_icon} alt="" className='icon'/>
+                <p className='title'>Quản lí User</p>
+            </NavLink>
+            <NavLink className="slidebar-option" to='/staff-manager'>
+                <img src={assets.staff_icon} alt="" className='icon'/>
+                <p className='title'>Quản lí Staff</p>
+            </NavLink>
+            <NavLink className="slidebar-option" to='/statistical'>
+                <img src={assets.statistical_icon} alt="" className='icon'/>
+                <p className='title'>Thông kê doanh số</p>
+            </NavLink>
         </div>
     </div>
   ) 

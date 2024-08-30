@@ -1,29 +1,13 @@
-.list-table-format{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1.5fr 1.5fr 1fr 1fr;
-    align-items: center;
-    gap: 10px;
-    padding: 12px 15px;
-    width: auto;
-    border: 1px solid #cacaca;
-    font-size: 13px;
-}
-
-.list-table-format.title{
-    background-color: #38B6FF;
-    color: white;
-}
-.list-table-format img{
-    width: 60px;
-}
-.list-table-format img.iconAction{
-    width: 30px;
-    margin-left: 5px;
-    cursor: pointer;
-}
-.list-table-format img.iconAction_edit{
-    width: 30px;
-    height: 20px;
-    margin-bottom: 3px;
-    cursor: pointer;
-}
+.search-bar {
+    position: fixed;
+    top: 16px; /* Khoảng cách từ trên cùng của trang */
+    left: 0;
+    right: 0;
+    padding: 0 16px;
+    background-color: white; /* Màu nền cho thanh tìm kiếm */
+    z-index: 1000; /* Đảm bảo thanh tìm kiếm nằm trên cùng các phần tử khác */
+  }
+  
+  .content-area {
+    padding-top: 80px; /* Khoảng cách từ trên cùng cho nội dung chính để không bị che khuất bởi thanh tìm kiếm */
+  }

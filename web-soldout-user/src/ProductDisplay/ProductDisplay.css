@@ -6,6 +6,7 @@
     font-size: max(2vw, 26px);
     font-weight: 600;
     color: #38B6FF;
+    margin-top: 60px;
 }
 
 .product-display-list{
@@ -15,3 +16,27 @@
     gap: 30px;
     row-gap: 50px;
 }
+
+.textContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  
+  .textContainer h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .textContainer p {
+    margin: 0;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .textContainer p:hover {
+    text-decoration: underline;
+  }

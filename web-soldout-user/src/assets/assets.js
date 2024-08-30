@@ -12,6 +12,7 @@ import profile_icon from './image/avatar.jpg'
 import logout_icon from './image/logout_icon.png'
 import favorite_icon from './image/favorite_icon.png'
 import order_list from './image/order_list.png'
+import profile from './image/profile.png'
 
 
 //social media icon
@@ -113,7 +114,8 @@ export const assets = {
     profile_icon,
     logout_icon,
     favorite_icon,
-    order_list
+    order_list,
+    profile
 }
 
 // data danh mục

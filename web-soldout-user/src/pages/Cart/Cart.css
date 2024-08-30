@@ -88,3 +88,120 @@
     color: white;
     border-radius: 4px;
 }
+
+.modal {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .modal button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  .address-selection {
+    margin-top: 10px;
+  }
+  
+  .address-selection select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .address-selection p {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .address-selection {
+    margin-top: 10px;
+  }
+  
+  .address-selection p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .address-selection select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+  }
+  
+  
+
+  .payment-method {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .payment-method div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-method input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .payment-method label {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .payment-method .atm {
+    background-color: #e7f1ff;
+    border: 1px solid #38b6ff;
+  }
+  
+  .payment-method .atm:hover {
+    background-color: #d0e9ff;
+  }
+  
+  .payment-method .cash {
+    background-color: #fff0f1;
+    border: 1px solid #dc3545;
+  }
+  
+  .payment-method .cash:hover {
+    background-color: #f9d6d8;
+  }
+  
